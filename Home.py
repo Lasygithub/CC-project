@@ -14,8 +14,8 @@ df = pd.read_csv('cars1.csv')
 
 #----------------------------------------------------side bar-----------------------------------------------------------
 st.logo(
-    "E:\\lalo.png",
-    icon_image="E:\\smlo.png",
+    "lalo.png",
+    icon_image="smlo.png",
 )
 st.sidebar.title("CAR COMPASS")
 page=st.sidebar.selectbox("CHOOSE A PAGE",["HOME","CHATBOT","ABOUT","PROFILE","CONTACT US/FEEDBACK"])
@@ -42,7 +42,7 @@ if page=="HOME":
         st.write("I am here to help you with finding appropriate cars for you ")
     st.divider()
 #-----------------------------------------------------img1----------------------------------------------------------------------
-    image_path = 'E:\\cci.png'
+    image_path = 'cci.png'
     img = Image.open(image_path)
     st.image(img, width=700)
     st.divider()
@@ -214,7 +214,7 @@ elif page == "ABOUT":
         unsafe_allow_html=True
     )
 
-    image_path = 'E:\\CC_3.png'
+    image_path = 'CC_3.png'
     img = Image.open(image_path)
     st.image(img, width=700)
     st.divider()
