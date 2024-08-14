@@ -10,7 +10,7 @@ WEBHOOK_URL = "https://connect.pabbly.com/workflow/sendwebhookdata/IjU3NjUwNTY0M
 
         
 #csv file
-df = pd.read_csv(r'E:\cars1.csv')
+df = pd.read_csv(r'E:/cars1.csv')
 
 #----------------------------------------------------side bar-----------------------------------------------------------
 st.logo(
